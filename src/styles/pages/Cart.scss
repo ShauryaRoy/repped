@@ -1,0 +1,20 @@
+.cart-section {
+    display: flex;
+    width: 70%;
+}
+
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(200, 2px);
+}
+
+.header {
+    grid-column: 2 / span 4;
+    grid-row: 25;
+}
+
+.cart {
+    grid-column: 2/ span 8;
+    grid-row: 80;
+}
