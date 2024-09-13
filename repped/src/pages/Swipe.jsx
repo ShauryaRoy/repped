@@ -50,7 +50,6 @@ const Swipe = () => {
         }
     };
 
-
     const outOfFrame = (name) => {
         console.log(name + ' left the screen!')
     }

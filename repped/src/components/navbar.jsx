@@ -23,19 +23,18 @@ const Navbar = (AuthToken) => {
                     <li>
                         <Link to="/swipeNow">SwipeNow  </Link>
                     </li>
-                    {<li>
+                    {/* {<li>
                         <Link to="/auth">Login</Link>
-                    </li>}
-                    <li>
-                        {/* have to create on boarding inside profile page */}
+                    </li>} */}
+                    {/* <li>
                         <Link to="/onboarding">Profile</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/newsletter_signup">Newsletter</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/cart">Cart {cartNumber}</Link>
-                    </li>
+                    </li> */}
                 </div>
             </ul>
         </section>
