@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navbar from '../components/navbar'
+import Navbar from '../components/NavbarPostLogin.js'
 import axios from 'axios';
 
 import "../styles/pages/Newsletter.scss"

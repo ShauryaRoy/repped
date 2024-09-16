@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../components/navbar.jsx"
+import Navbar from "../components/navbar.js"
 import "../styles/pages/Home.scss"
 import { Link } from "react-router-dom"
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
                         <h1 className='heading'>Tinder For <span>Clothing</span> </h1>
                     </div>
                     <div className='get-started-button'>
-                        <Link to="/swipenow"><button type="button">Get Started</button></Link>
+                        <Link to="/signup"><button type="button">Get Started</button></Link>
                     </div>
                 </div>
             </section>
